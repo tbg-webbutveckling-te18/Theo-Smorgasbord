@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(2, 2, 1, 0.8);
+    
+}
+
+h1 {
+    color:aquamarine;
+    font-size: 82px
+}
+
+p {
+    font-style:italic;
+    letter-spacing: 8px
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul li {
+    color:#87f4f4;
+    text-shadow: 1px 1px 8px #460005; /* x y blur color */
+        
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    
+}
