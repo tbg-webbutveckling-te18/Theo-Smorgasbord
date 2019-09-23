@@ -18,11 +18,22 @@ ul {
     padding: 0px;
 }
 
-ul li {
-    color:#87f4f4;
+ul#Subpages li:first-child {
     text-shadow: 1px 1px 8px #460005; /* x y blur color */
+    text-align: center;
+    font-size: 20px;
         
+} 
+ul#Subpages a {
+    text-decoration: none;
 }
+
+ul#Subpages a:hover {
+    font-weight: bold;
+    color:crimson;
+    letter-spacing: 1px;
+}
+
 
 nav ul li a {
     color:white;
