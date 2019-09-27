@@ -1,4 +1,63 @@
+::selection {
+    color:crimson
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d8b3b3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #600404;
+}
+
 body {
-    background-color: black;
+    background-color: #1e272e;
+    color: white;
+    margin: 0px;
     
+}
+
+section#wrapper {
+    width: 300px;
+    height: auto;
+    
+    background-color: #00d8d6;
+    border: 3px solid #000000;
+}
+
+section#wrapper p {
+    display: block;
+    color: #02101d;
+    border: 1px solid black;
+    margin-top: 0;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+section.standard-section {
+    width: 200px;
+    height: 200px;
+    
+    background-color: #05c46b;
+    border-top: 0px solid black;
+    border: 3px solid black;
+    margin: 5px;
+    
+}
+
+section.standardsection img {
+    display: inline;
 }
