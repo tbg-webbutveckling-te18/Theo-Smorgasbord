@@ -5,12 +5,12 @@ html {
 body {
     background: #159957;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom right, #27033b, #602b9d, #448b33, #3e865f, #6e9656, #349380); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to bottom right, #1e022e, #000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 section#wrapper {
-    border: 1px solid black;
+    border: 1px solid white;
     margin: auto;
     width: 80%;
     min-height: 640;
@@ -19,7 +19,43 @@ section#wrapper {
 
 header{
     width: 100%;
-    height: 200px;
-    border: 2px solid #bbfaff;
-    display:block;
+    border: 0px solid white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header h1 {
+    color:white;
+    font-size: 82px;
+    background: linear-gradient(to bottom right, #003367, #33031e);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin: 0;
+    font-family: 'Be Vietnam', sans-serif;
+    
+}
+
+nav {
+    border: 1px solid aqua;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+    margin-left: 0;
+
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+ul a:hover {
+    color:crimson;
+    cursor: wait;
 }
