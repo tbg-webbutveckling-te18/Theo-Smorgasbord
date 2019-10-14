@@ -1,6 +1,6 @@
 
 html {
-    height: 100%;
+    min-height: 100%;
 }
 body {
     background: #159957;  /* fallback for old browsers */
@@ -57,5 +57,49 @@ ul a {
 }
 ul a:hover {
     color:crimson;
-    cursor: wait;
+    cursor: pointer;
+}
+
+main, main aside, section .maininfo {
+    border: 1px solid aquamarine;
+    padding: 10px;
+    color: lime;
+}
+
+main {
+    display: flex;
+    min-height: 500px;
+    
+}
+
+main aside {
+    flex: 1;
+}
+
+section.maininfo {
+    flex: 2.8;
+}
+section.maininfo img {
+    width: 20%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0px;
+    
+}
+
+footer ul li a {
+    color: lime;
+    text-decoration: none;
+}
+
+section.Copyright {
+    text-align: center;
+    color: lime;
 }
