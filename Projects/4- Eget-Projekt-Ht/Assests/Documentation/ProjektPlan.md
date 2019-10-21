@@ -28,17 +28,18 @@ Det skall även finnas färdigt översatta versioner av hemsidan att ladda ner o
 * Beskriv idén med kompositionen på de olika sidorna
     * Logotyper: skall vara gjord av mig själv för att undvika copyright-disputer vid eventuell publikation av hemsidan.
     
-    * Färger: 
+    * Färger: Skall bestå av en semi-sammanhängande färg-pallete från Internet baserad på nyanser av färger jag själv tycker om och ser bra ut på sidan.
     
-    * Bakgrundsfärg:
+    * Bakgrundsfärg: En av de ovanstående färgerna, mest troligt en mörkare eller ljusare nyans av dem.
     
-    * Header:
+    * Header: Skall innehålla mitt brandname och kanske nån kul hover effekt och easter egg.
     
-    * Font:
+    * Font: Har ej bestämt ännu, inte essentiellt för sidans innehåll i detta fall.
     
-    * Navigation/Menyer :
+    * Navigation/Menyer : Det skall finnas 2 eller 3 menyer, ebroende på vad jag hinner med. En "About" sida ska finnas, en sida med memes och cursed images skall även finnas närvarande på sidan. Eventuella tilläg kan komma att förekomma.
     
-    * Layout:
+    * Layout: Layouten på sidan skall vara simpel, intuitiv, strukturerad med en känsla av organiserat kaos, som i min hjärna.
+    
     
     
 
