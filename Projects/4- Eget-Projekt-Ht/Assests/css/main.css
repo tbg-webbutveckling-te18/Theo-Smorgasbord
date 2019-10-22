@@ -1,0 +1,48 @@
+body {
+    background-color: #b8dadb;
+    border: 2px solid #fffbfb;
+    text-justify: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #ef6ba3;
+    font-size-adjust: auto;
+    font-size: 400% ;
+    justify-content: flex-start space-around;
+}
+
+nav ul li {
+    text-align: center;
+    
+    justify-content: space-around;
+    
+    list-style: color: #ef6ba3; 
+    
+    outline-offset: inherit;
+    
+    list-style-type: none;
+
+}
+
+
+ul li :hover {
+    text-decoration-color: #691136;
+    
+    color: #f74b94;
+    
+    
+    text-align-last: center;
+    
+}
+
+a {
+    font-size-adjust: auto;
+    
+    font-size: 180%;
+    
+    justify-content: space-around;
+    
+}
+
+
