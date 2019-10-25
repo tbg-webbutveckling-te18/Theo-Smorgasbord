@@ -28,9 +28,9 @@ Det skall även finnas färdigt översatta versioner av hemsidan att ladda ner o
 * Beskriv idén med kompositionen på de olika sidorna
     * Logotyper: skall vara gjord av mig själv för att undvika copyright-disputer vid eventuell publikation av hemsidan.
     
-    * Färger: Skall bestå av en semi-sammanhängande färg-pallete från Internet baserad på nyanser av färger jag själv tycker om och ser bra ut på sidan.
+    * Färger: Skall bestå av en semi-sammanhängande färg-pallete från Internet baserad på nyanser av färger jag själv tycker om och ser bra ut på sidan.  #b8dadb #ef6ba3
     
-    * Bakgrundsfärg: En av de ovanstående färgerna, mest troligt en mörkare eller ljusare nyans av dem.
+    * Bakgrundsfärg: En av de ovanstående färgerna, mest troligt en mörkare eller ljusare nyans av dem. #b8dadb
     
     * Header: Skall innehålla mitt brandname och kanske nån kul hover effekt och easter egg.
     
