@@ -68,7 +68,7 @@ li form {
 
 a {
     
-    border: 1px solid black;
+    border: 0.5px solid black;
     
     font-size: 200%;
     
@@ -92,4 +92,14 @@ li.Memes {
     justify-content: center;
     padding: 2px;
 }
+
+ul {
+    
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    list-style: none;  
+}
+
+
 
