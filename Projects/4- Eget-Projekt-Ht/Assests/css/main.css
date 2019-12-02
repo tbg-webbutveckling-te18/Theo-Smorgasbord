@@ -86,11 +86,11 @@ aside {
     width: 250px;
 }
 
-li.Memes {
+ul li.Memes {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 2px;
+    border: 1px solid black;
 }
 
 ul {
@@ -98,7 +98,8 @@ ul {
     display: flex;
     justify-content: space-around;
     justify-content: space-between;
-    list-style: none;  
+    list-style: none;
+    padding: 0;
 }
 
 
