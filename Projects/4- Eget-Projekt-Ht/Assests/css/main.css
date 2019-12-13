@@ -6,7 +6,7 @@ body {
     background: -webkit-linear-gradient(to bottom, #55efc4, #00b894);
     background: linear-gradient(to bottom, #55efc4, #ffeaa7);
     border: 1px solid black;
-    height: 100vh;
+    
 }
 
 p {
@@ -96,6 +96,12 @@ ul {
     justify-content: space-between;
     list-style: none;
     padding: 0;
+}
+
+li.SeparateMeme {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 
