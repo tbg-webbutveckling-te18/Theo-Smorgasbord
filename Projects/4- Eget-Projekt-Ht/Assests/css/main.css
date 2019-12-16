@@ -27,8 +27,6 @@ h2 {
     justify-content: space-around;
 }
 
-nav {
-    height: 150px;
 }
 nav ul {
     height: 100px;
@@ -43,6 +41,8 @@ nav ul li {
     width: 150px;
     
     margin: auto;
+    
+    list-style: none;
 
 }
 
@@ -58,51 +58,51 @@ nav ul li a {
     
 }
 
-li form {
+li form input {
     text-align: center;
 }
 
 
 a {
-    
-    border: 0.5px solid black;
+    border: 1px solid black;
     font-size: 200%;
-    
 }
 
 a:hover {
     font-size: 215%;
 }
 
-aside {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 0px solid black;
-    border-bottom: 0px solid black;
-    width: 250px;
+
 }
 
-ul li.Memes {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    border: 1px solid black;
-}
 
 ul {
     
     display: flex;
     justify-content: space-around;
-    justify-content: space-between;
     list-style: none;
     padding: 0;
 }
 
-li.SeparateMeme {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+div.Memes {
+  margin: 5px;
+  border: 1px solid black;
+  float: left;
+  width: 300px;
 }
 
+div.Memes:hover {
+  border: 1px solid rgb(6, 7, 6);
+}
+
+div.Memes img {
+  width: 100%;
+  height: 100%;
+}
+
+div.Subtext {
+  padding: 15px;
+  text-align: center;
+}
 
 
