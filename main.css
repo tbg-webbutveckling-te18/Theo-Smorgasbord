@@ -22,7 +22,6 @@ body {
     grid-auto-rows: 200px;
     
     margin: auto;
-    border: 1px dotted black;
     
     text-align: center;
     
@@ -37,6 +36,8 @@ body {
     justify-content: space-around;
     align-items: center;
     padding-bottom: 82px;
+    
+    border-radius: 10px;
 
     
 
