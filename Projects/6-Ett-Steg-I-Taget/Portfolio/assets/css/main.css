@@ -1,0 +1,77 @@
+@charset 'utf-8';
+
+
+h1 {
+    text-align: center;
+    font-family: 'Lato';
+}
+.grid-container {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    
+    width: 80%;
+    min-height: 90vh;
+    margin: auto;
+        
+}
+
+.grid-items {
+    transition: all .4s;
+}
+
+.grid-items:hover {
+    transform: scale(1.04);
+}
+
+.grid-items {
+    border: 1px solid black;
+}
+
+.grid-items:nth-child(1) {
+    background-image: url(../images/water.jpg);
+    background-size: cover;
+}
+
+.grid-items:nth-child(2) {
+    background-image: url(../images/water2.jpg);
+    background-size: cover;
+}
+
+.grid-items:nth-child(3) {
+    background-image: url(../images/water3.jpg);
+    background-size: cover;
+}
+
+.grid-items:nth-child(4) {
+    background-image: url(../images/water4.jpg);
+    background-size: cover;
+}
+
+.grid-items:nth-child(5) {
+    background-image: url(../images/water5.jpg);
+    background-size: cover;
+}
+
+.grid-items:nth-child(6) {
+    background-image: url(../images/water6.jpg);
+    background-size: cover;
+}
+
+.grid-items:nth-child(7) {
+    background-image: url(../images/water7.jpg);
+    background-size: cover;
+}
+
+.grid-items:nth-child(8) {
+    background-image: url(../images/water8.jpg);
+    background-size: cover;
+}
+
+.grid-items:nth-child(9) {
+    background-image: url(../images/water9.jpg);
+    background-size: cover;
+}
+
+    
