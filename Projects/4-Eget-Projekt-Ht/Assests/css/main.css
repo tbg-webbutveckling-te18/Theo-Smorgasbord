@@ -109,7 +109,7 @@ section.footer-container {
 .grid-container {
     display: grid;
     
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.4fr 1fr 0.4fr;
     grid-auto-rows: 200px;
     
     width: 80%;
@@ -131,46 +131,48 @@ section.footer-container {
 }
 
 .grid-items:nth-child(1) {
-    background-image: url(../Images/Memes/Meme4.png);
+    background-image: url(../Images/Memes/80upvotesBoi.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .grid-items:nth-child(2) {
-    background-image: url(../Images/Memes/Meme2.png);
-    background-size: cover;
+    background-image: url(../Images/Memes/Meme1.png);
+    background-size: contain;
 }
 
 .grid-items:nth-child(3) {
-    background-image: url(../Images/Memes/Meme3.jpg);
-    background-size: cover;
+    background-image: url(../Images/Memes/Meme2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .grid-items:nth-child(4) {
-    background-image: url(../Images/Memes/Meme5.PNG);
-    background-size: cover;
+    background-image: url();
+    background-size: ;
 }
 
 .grid-items:nth-child(5) {
-    background-image: url(../images/water5.jpg);
+    background-image: url();
     background-size: cover;
 }
 
 .grid-items:nth-child(6) {
-    background-image: url(../images/water6.jpg);
+    background-image: url();
     background-size: cover;
 }
 
 .grid-items:nth-child(7) {
-    background-image: url(../images/water7.jpg);
+    background-image: url();
     background-size: cover;
 }
 
 .grid-items:nth-child(8) {
-    background-image: url(../images/water8.jpg);
+    background-image: url();
     background-size: cover;
 }
 
 .grid-items:nth-child(9) {
-    background-image: url(../images/water9.jpg);
+    background-image: url();
     background-size: cover;
 }
