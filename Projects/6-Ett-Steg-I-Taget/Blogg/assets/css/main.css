@@ -1,10 +1,30 @@
+
+
+html {
+    font-family: 'Sen', sans-serif;
+}
+
 body {
     background-color: #10ac84;
 }
 
 .article-container {
-    border: 10px solid black;
+    border: 2px solid black;
     
     width: 50vw;
     margin: auto;
+    padding: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+#Bodytext {
+    text-align: center;
 }
