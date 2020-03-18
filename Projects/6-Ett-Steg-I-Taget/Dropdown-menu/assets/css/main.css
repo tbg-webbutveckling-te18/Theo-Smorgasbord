@@ -45,5 +45,5 @@ li {
 li:hover .sub-menu {
     transition: 0.75s;
     opacity: 1;
-    height: 40px;
+    height: 35px;
 }
