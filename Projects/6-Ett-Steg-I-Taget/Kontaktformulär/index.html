@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontaktformulär</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <section class="form-container">
+        <!--   action = Adressen dit all data skickas    -->
+        <form action="mailto:dennis.ludberg@edu.lycksele.se" class="test-form"> 
+            <fieldset>
+                <legend>Kontaktformulär</legend>
+                <p>
+                    <label for="username">Användarnamn</label>
+                    <input type="text" required id="username"> <span class="form-required">*</span>
+                </p>
+                
+                <p>
+                    <label for="email">E-post</label>
+                    <input type="email" required id="email"> <span class="form-required">*</span>
+                </p>
+                
+                <p>
+                    <label for="">Ditt meddelande: </label>
+                    <textarea maxlength="250"></textarea>
+                </p>
+                
+                <p>
+                    <label for="">Lösenord</label>
+                    <input type="password">
+                </p>
+                
+                <p>
+                    <button type="submit">Skicka</button>
+                </p>
+                
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
