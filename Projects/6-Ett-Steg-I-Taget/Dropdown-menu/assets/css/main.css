@@ -30,20 +30,42 @@ body {
     background-color: #ccffcc;
 }
 
+.main-list {
+    list-style: none;
+    text-align: center;
+    font-size: 32px;
+}
+
 li {
     list-style: none;
     text-align: center;
     font-size: 28px;
 }
 
+
+
 .sub-menu {
+    opacity: 0;
+    height: 0;
+    font-size: 20px;
+    
+}
+
+.sub-menu2 {
     opacity: 0;
     height: 0;
     font-size: 20px;
 }
 
-li:hover .sub-menu {
+.main-list:hover .sub-menu {
+    height: 35px;
     transition: 0.75s;
     opacity: 1;
+    
+}
+
+.sub-list:hover .sub-menu2 {
     height: 35px;
+    transition: 0.75s;
+    opacity: 1;
 }
