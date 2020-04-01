@@ -11,12 +11,20 @@ html {
     min-height: 30vh;
     background-color: #66ffcc;
     
+    border: 1px dotted black;
+    border-radius: 8px;
+    
 }
 
 legend {
     text-align: center;
     font-family: 'Baloo Da 2', cursive;
     font-size: 28px;
+}
+
+fieldset {
+    align-items: center;
+    border-radius: 8px;
 }
 
 .form-container p {
