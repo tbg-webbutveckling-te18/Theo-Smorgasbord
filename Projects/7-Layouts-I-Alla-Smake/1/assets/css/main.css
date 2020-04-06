@@ -1,0 +1,52 @@
+html {
+    min-height: 100%;
+    
+    font-family: 'Sen', sans-serif;
+}
+
+.site-banner {
+    
+    min-height: 20vh;
+    max-height: 25vh;
+    
+    min-width: 40vw;
+    max-width: 60vw;
+    
+    margin: auto;
+    
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #9933ff, #99ff33);
+    background: -o-linear-gradient(to bottom, #9933ff, #99ff33);
+    background: linear-gradient(to bottom, #9933ff, #99ff33);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+    
+    color: #ccff33;
+    text-align: center;
+    text-shadow: black 3px -2px 3px;
+}
+
+h2 {
+    
+    color: #bbff33;
+    text-align: center;
+    text-shadow: black 3px -2px 3px;
+}
+
+.navigation {
+    
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff3399, #33ff99; );
+    background: -o-linear-gradient(to right, #ff3399, #33ff99);
+    background: linear-gradient(to right, #ff3399, #33ff99);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    min-height: 5vh;
+
+
+}
+
+h3 {
+    text-align: center;
+}
