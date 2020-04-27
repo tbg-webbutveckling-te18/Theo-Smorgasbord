@@ -76,6 +76,8 @@ h3 {
     text-shadow: 0.5px 2.8px 2px;
     
     padding: auto;
+    
+    height: 80vh;
 
     
 }
@@ -100,15 +102,60 @@ h3 {
     
     text-align: center;
     
-    background-color: #419984;
-    
-    height: auto;
+    height: 80vh;
     
     width: 40vw;
     
     margin: auto;
-        
-    margin-top: 12px;
+    
+    display: flex;
+    
+    flex-flow: column;
+    
+    
+}
+
+.mail {
+    background-color: #36a288;
+    
+    margin-bottom: 20px;
+    
+    flex: 2;
+    
+}
+
+.text1 {
+    background-color: #378875;
+    
+    margin-bottom: 20px;
+    
+    flex: 1;
+    
+}
+
+.text2 {
+    background-color: #3a8473;
+    
+    margin-bottom: 20px;
+    
+    
+}
+
+.frog-parent {
+    
+    display: flex;
+    
+    flex-flow: row;
+}
+
+.left {
+    background-color: darkgray;
+    
+}
+
+.right {
+    background-color: grey;
+
 }
 
 main {
