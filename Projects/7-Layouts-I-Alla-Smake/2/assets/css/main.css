@@ -1,0 +1,32 @@
+html {
+    
+    background-color: #ffff99;
+    
+}
+
+.parent-top {
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    height: 20vh;
+    
+    text-align: center;
+}
+    
+.logo {
+    
+    background-color: #99ffcc;
+    
+    width: 20%;
+    
+}
+
+.ad {
+    
+    background-color: #ff99cc;
+    
+    width: 65%;
+    
+}

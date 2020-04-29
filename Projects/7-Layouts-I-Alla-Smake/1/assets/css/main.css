@@ -146,20 +146,36 @@ h3 {
     display: flex;
     
     flex-flow: row;
+    
+    justify-content: space-between;
+    
+    
 }
 
 .left {
     background-color: darkgray;
     
+    flex: 1;
+    
 }
 
 .right {
     background-color: grey;
+    
+    flex: 1;
+    
+    height: 10vh;
 
 }
 
 main {
     display: flex;
+}
+
+.under-frog {
+    background-color: white;
+    
+    
 }
 
 footer {
