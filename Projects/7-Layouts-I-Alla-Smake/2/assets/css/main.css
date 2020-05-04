@@ -2,6 +2,18 @@ html {
     
     background-color: #ffff99;
     
+    border: 4px solid white;
+    
+    border-radius: 8px;
+    
+    min-height: 90vh;
+    
+    margin: auto;
+    
+    padding: auto;
+    
+    
+    
 }
 
 .parent-top {
@@ -21,6 +33,13 @@ html {
     
     width: 20%;
     
+    transition: all 0.62s;
+    
+}
+
+.logo:hover {
+    
+    background-color: #99ff66;
 }
 
 .ad {
@@ -29,4 +48,51 @@ html {
     
     width: 65%;
     
+    transition: all 0.62s;
+    
+}
+
+.ad:hover {
+    
+    background-color: #ff6699;
+}
+
+.flex {
+    
+    display: flex;
+    
+    
+}
+
+.nav {
+    
+    background-color: #99ffff;
+    
+    justify-content: space-around;
+    
+    height: 5vh;
+    
+    width: 80vw;
+    
+    margin: auto;
+    
+    margin-top: 20px;
+    
+    transition: all 0.62s;
+    
+    
+}
+
+.nav:hover {
+    
+    background-color: #99ff99;
+}
+
+
+main {
+    
+    display: flex;
+     height: 80vh;
+    
+    text-align: center;
 }
