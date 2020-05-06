@@ -35,11 +35,15 @@ html {
     
     transition: all 0.62s;
     
+    border: 2px dotted black;
+    
 }
 
 .logo:hover {
     
     background-color: #99ff66;
+    
+    border-radius: 16px;
 }
 
 .ad {
@@ -50,11 +54,17 @@ html {
     
     transition: all 0.62s;
     
+    border: 2px dotted black;
+    
 }
 
 .ad:hover {
     
     background-color: #ff6699;
+    
+    border-radius: 16px;
+    
+    
 }
 
 .flex {
@@ -66,13 +76,17 @@ html {
 
 .nav {
     
+    
+    text-align: center;
+    
+    
     background-color: #99ffff;
     
     justify-content: space-around;
     
     height: 5vh;
     
-    width: 80vw;
+    width: 95vw;
     
     margin: auto;
     
@@ -80,12 +94,16 @@ html {
     
     transition: all 0.62s;
     
+    border: 2px dotted black;
+    
     
 }
 
 .nav:hover {
     
     background-color: #99ff99;
+    
+    border-radius: 16px;
 }
 
 
@@ -95,4 +113,54 @@ main {
      height: 80vh;
     
     text-align: center;
+    
+    background-color: #cc99ff;
+    
+    margin-top: 20px;
+    
+    text-align: center;
+    
+    border-bottom: 2px dotted black;
+    
+    border-top: 2px dotted black;
+    
+    border-radius: 8px;
+}
+
+
+.main-left {
+    
+    background-color: #a9a8fa;
+    
+    height: 100%;
+    
+    flex: 1;
+    
+    border-right: 2px dotted black;
+    
+    border-left: 2px dotted black;
+}
+
+.main-center {
+    
+    background-color: #9caffd;
+    
+    height: 100%;
+    
+    flex: 1;
+    
+    border-right: 2px dotted black;
+}
+
+.main-right {
+    
+    background-color: #9db4fd;
+    
+    height: 100%;
+    
+    flex: 1;
+    
+    border-right: 2px dotted black;
+    
+    
 }
