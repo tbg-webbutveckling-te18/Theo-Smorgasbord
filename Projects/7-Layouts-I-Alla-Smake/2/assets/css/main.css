@@ -164,3 +164,109 @@ main {
     
     
 }
+
+.main-left1 {
+    
+    background-color: white;
+    
+    width: 80%;
+    
+    height: 30%;
+    
+    margin: auto;
+    
+    margin-top: 20px;
+}
+
+.main-left2 {
+    
+    background-color: grey;
+    
+    width: 80%;
+    
+    height: 30%;
+    
+    margin: auto;
+    
+    margin-top: 20px;
+}
+
+.main-left3 {
+    
+    background-color: darkgrey;
+    
+    width: 80%;
+    
+    height: 30%;
+    
+    margin: auto;
+    
+    margin-top: 20px;
+}
+
+.main-center1 {
+    
+        
+    background-color: white;
+    
+    width: 80%;
+    
+    height: 40%;
+    
+    margin: auto;
+    
+    margin-top: 20px;
+}
+
+.main-center2 {
+    
+        
+    background-color: grey;
+    
+    width: 80%;
+    
+    height: 40%;
+    
+    margin: auto;
+    
+    margin-top: 20px;
+}
+
+.main-right1 {
+    
+    background-color: white;
+    
+    width: 80%;
+    
+    height: 30%;
+    
+    margin: auto;
+    
+    margin-top: 20px;
+}
+
+.main-right2 {
+    
+    background-color: grey;
+    
+    width: 80%;
+    
+    height: 30%;
+    
+    margin: auto;
+    
+    margin-top: 20px;
+}
+
+.main-right3 {
+    
+    background-color: darkgrey;
+    
+    width: 80%;
+    
+    height: 30%;
+    
+    margin: auto;
+    
+    margin-top: 20px;
+}
