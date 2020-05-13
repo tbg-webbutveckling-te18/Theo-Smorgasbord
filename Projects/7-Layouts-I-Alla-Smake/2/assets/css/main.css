@@ -12,7 +12,7 @@ html {
     
     padding: auto;
     
-    
+    font-family: 'DM Mono', monospace;
     
 }
 
@@ -78,6 +78,8 @@ html {
     
     
     text-align: center;
+    
+    font-size: 125%;
     
     
     background-color: #99ffff;
@@ -149,7 +151,11 @@ main {
     
     flex: 1;
     
+    display: flex;
+    
     border-right: 2px dotted black;
+    
+    flex-flow: column;
 }
 
 .main-right {
@@ -207,15 +213,13 @@ main {
 .main-center1 {
     
         
-    background-color: white;
+    background-color: Lime;
     
     width: 80%;
     
-    height: 40%;
+    flex: 1;
     
-    margin: auto;
-    
-    margin-top: 20px;
+    margin: 20px auto 20px auto;
 }
 
 .main-center2 {
@@ -225,11 +229,9 @@ main {
     
     width: 80%;
     
-    height: 40%;
+    margin: auto auto 20px auto;
     
-    margin: auto;
-    
-    margin-top: 20px;
+    flex: 2;
 }
 
 .main-right1 {
@@ -269,4 +271,10 @@ main {
     margin: auto;
     
     margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    
+    
 }
