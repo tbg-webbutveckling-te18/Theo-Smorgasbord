@@ -1,0 +1,53 @@
+html {
+    
+    font-family: 'Baloo Da 2', cursive;
+}
+
+
+
+header {
+    
+    margin: 60px;
+    
+    background-color: cadetblue;
+    
+    text-align: center;
+}
+
+.logo {
+    
+    
+    text-align: center;
+    
+    margin: 60px;
+    
+    font-size: 250%;
+    
+    
+}
+
+nav {
+    
+    background-color: #90579c;
+    
+    display: flex;
+    
+}
+
+ul {
+    
+    flex-flow: row;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    width: 100%;
+}
+
+li {
+    
+    list-style: none;
+    
+    margin: auto;
+}
