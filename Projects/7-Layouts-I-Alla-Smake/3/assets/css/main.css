@@ -50,4 +50,55 @@ li {
     list-style: none;
     
     margin: auto;
+    
+    transition: 0.4s;
+    
+    color: aquamarine;
+    
+    padding: 2px;
+    
+    
 }
+
+li:hover {
+    
+    
+    border: 0.5px dotted aquamarine;
+    
+    border-radius: 6px;
+}
+
+.image-scroller {
+    
+    background-color: #579c6e;
+    
+    height: 80%;
+    width: 80%;
+    
+    margin: 10px auto 10px auto;
+    
+    display: flex;
+}
+
+img {
+    
+    border-radius: 5%;
+    
+    justify-content: space-around;
+    
+    height: 400px;
+    width: 260;
+    
+    margin: auto;
+    
+    transition: all 0.8s;
+    
+    
+    filter: invert(182%) saturate(10%) blur(0.82px);
+}
+
+img:hover {
+    
+    filter: invert(0.2%) saturate(300%) blur(0.2px);
+}
+
