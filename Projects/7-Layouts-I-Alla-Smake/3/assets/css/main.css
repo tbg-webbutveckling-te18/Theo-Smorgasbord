@@ -102,3 +102,33 @@ img:hover {
     filter: invert(0.2%) saturate(300%) blur(0.2px);
 }
 
+
+.fa-arrow-left {
+
+    font-size: 50px;
+    align-self: center;
+    margin: auto;
+}
+
+.fa-arrow-right {
+    
+    font-size: 50px;
+    align-self: center;
+    margin: auto;
+}
+
+.image-gallery {
+    
+    margin: auto;
+    
+    height: 250px;
+    width: 1200px;
+    
+    background-color: Black;
+    
+    color: white;
+    
+    text-align: center;
+    
+    padding: auto;
+}
