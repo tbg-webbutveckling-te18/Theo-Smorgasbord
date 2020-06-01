@@ -1,0 +1,39 @@
+.top {
+    
+    display: flex;
+    
+}
+
+.left {
+    
+    flex: 2;
+    
+    text-align: center;
+    
+    border: 1px solid black;
+}
+
+.middle {
+    
+    flex: 4;
+    
+    text-align: center;
+    
+    border: 1px solid black;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right {
+    
+    flex: 2;
+    
+    text-align: center;
+    
+    border: 1px solid black;
+}
+
+p {
+    text-align: end;
+}
