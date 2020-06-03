@@ -192,3 +192,25 @@ img {
     margin-top: 400px;
     display: flex;
 }
+
+.left {
+    
+    text-align: left;
+    
+    width: 200px;
+    height: 260px;
+    
+}
+
+.right {
+    
+    display: flex;
+    
+}
+
+.right img {
+    
+    justify-content: center;
+    
+    margin-left: 820px;
+}
