@@ -105,7 +105,7 @@ main {
 
 .main-child {
     flex: 1;
-    padding: 20px;
+    padding: 21px;
     justify-content: center;
     align-items: center;
 }
