@@ -51,3 +51,75 @@ if (d.getHours() < 11) {
 }
 
 
+
+
+var grade = 'A';
+switch(grade) {
+    case 'A':
+        console.log('GG')
+    break;
+
+    case 'B':
+        console.log('Well Done')
+    break;
+
+    case 'C':
+        console.log('Nice')
+    break;
+
+    case 'D':
+        console.log('Okay')
+    break;
+
+    case 'E': 
+        console.log('You could do better')
+    break;
+
+    case 'F':
+        console.log('You suck!')
+    break;
+
+    default:
+        console.log('Unknown grade...')
+
+
+}
+
+// switch-statement med veckodagar
+
+var whatday = new Date();
+
+switch(whatday.getDay()) { 
+    
+    case 0:
+        console.log('Det är söndag mina bekanta')
+    break;
+
+    case 1:
+        console.log('Det är nu måndag')
+    break;
+
+    case 2:
+        console.log('Det är tisdag mina bekanta')
+    break;
+
+    case 3:
+        console.log('Onsdag idag ju!')
+    break;
+
+    case 4:
+        console.log('Idag = Torsdag')
+    break;
+
+    case 5:
+        console.log('Fredag nu ju, tagga helg boys!')
+    break;
+
+    case 6: 
+        console.log('Lördag idag')
+    break;
+    
+    
+}
+
+
