@@ -80,3 +80,36 @@ for (var i = 300; i < 334; i++) {
     }
 }
 document.writeln('-------------------------------------<br>')
+
+//Excercise 6 - Write your own
+//Print all even numbers divisible by 5 AND 3 between 5 and 50
+
+for (var i = 5; i <= 50; i++) {
+    if (i % 5 == 0 && i % 3 == 0) {
+        document.writeln(i)
+    }
+    
+}
+document.writeln('<br>-------------------------------------<br>')
+//Excercise 7: Multiplication table
+//Write a for loop that iterates from 0 to 10
+//For each iteration of the loop it will mulitply
+//the number by 9 and log the result (e.g "2 * 9 = 18")
+
+for (var i = 0; i <= 10; i++) {
+    document.writeln(i + ' * 9' + ' = ' + i * 9 + '<br>')
+}
+document.writeln('<br>-------------------------------------<br>')
+// Nested for loop
+// * * * * * 
+// * * * * * 
+// * * * * * 
+// * * * * * 
+// * * * * * 
+
+for (var i = 0; i < 5; i++) {
+    for (var j = 0; j < 5; j++) {
+        document.writeln('*')
+    }
+    document.writeln('<br>');
+}
