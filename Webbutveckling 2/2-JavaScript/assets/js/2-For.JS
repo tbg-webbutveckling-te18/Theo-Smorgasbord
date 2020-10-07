@@ -113,3 +113,46 @@ for (var i = 0; i < 5; i++) {
     }
     document.writeln('<br>');
 }
+
+//Bonus: Use a nested for loop to show the tables for every multipier from 0 to 10
+
+for (var i = 0; i < 11; i++) {
+    document.writeln('<br>')
+    for (var j = 0; j < 11; j++) {
+        document.writeln('[ ' + i * j + ' ]')
+    }
+}
+
+document.writeln('<br>-------------------------------------<br>')
+
+//Create an array to hold your top choices (colors, food, games, presidents, whatever).
+//for each choice, log to the screen a string like: "My #1 choice is blue."
+
+var favColor = ['Dark Green', 'Burgundy', 'Purple']
+var len = favColor.length
+for (var i = 0; i < len; i++ ) {
+    document.writeln('My number ' + (i + 1) + ' favourite color is : ' + favColor[i] + '<br>')
+}
+document.writeln('<br>-------------------------------------<br>')
+//Same as above BUT!
+//Make som logic depending if it's the first, second or third choice...
+//1st, 2nd, 3rd, 4th, 5th and so on
+
+var favDesserts = ['Chocolate pudding', 'Coockie dough', 'Kladdkaka', 'Pannacotta', 'Jello']
+var len = favDesserts.length
+for (var i = 0; i < len; i++) {
+    choice = i + 1
+    if (choice == 1) {
+        document.writeln('My first choice is: ' + favDesserts[i] + '<br>')
+    
+    }
+    else if (choice == 2) {
+        document.writeln('My second choice is: ' + favDesserts[i] + '<br>')
+    }
+    else if (choice == 3) {
+        document.writeln('My third choice is: ' + favDesserts[i] + '<br>')
+    }
+    else {
+        document.writeln('My ' + choice + 'th ' + 'choice is: ' + favDesserts[i] + '<br>')
+    }
+}
