@@ -1,1 +1,12 @@
 @charset 'utf-8';
+
+html {
+    font-family: 'Electrolize', sans-serif
+}
+body {
+    background-color: #f53b57;
+    padding: 320px;
+    border: 2px dotted #ffa801;
+    margin: 82px;
+    border-radius: 8px;
+}
