@@ -145,3 +145,33 @@ btnStopTime.addEventListener("click", function() {
     doomsStr.style.fontSize = "60px";
     doomsStr.style.color = "crimson";
 });
+
+
+
+//Write a function named tellfortune
+
+
+var output = document.getElementById("tellFortune");
+var btnFortune = document.getElementsByTagName("button")[2];
+
+
+function tellFortune(kid, partner, place, job) {
+
+    output.innerHTML = `You will be a ${job} in ${place} and married to ${partner} and have ${kid} kids <br>` ;
+
+
+}
+
+var jobArr = ["President", "Dictator", "Drugdealer", "Homeless Person", "Canadian Zookeeper", "Australian Mob-Boss", "Swedish Chef", "Proffesional muppeter", "Programmer" ];
+var cityArr = ["New York", "Amsterdam", "Lycksele", "Umeå", "Kingston", "Bangkok", "Dubai", "Norsjö", "Lyon"];
+var partnerArr = ["Emilia", "Emil", "Sacha", "Jim", "Nadia", "Susan", "Emelie", "Theo", "Peter", "Emily", "Katja", "Bror", "Mohammed", "Ali", "Julia", "Johannes", "William", "Esmeralda"];
+var kidsArr = [0,1,2,3,4,5,6,7,8,9,10,11,12,82];
+
+btnFortune.addEventListener("click", function() {
+    var randomKid = jobArr[Math.floor(Math.random() * jobArr.length)];
+    var randomPartner = jobArr[Math.floor(Math.random() * jobArr.length)];
+    var randomPlace = jobArr[Math.floor(Math.random() * jobArr.length)];
+    var randomJob = jobArr[Math.floor(Math.random() * jobArr.length)];
+
+    tellFortune();
+});
