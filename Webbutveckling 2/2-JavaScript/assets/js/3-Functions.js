@@ -148,7 +148,7 @@ btnStopTime.addEventListener("click", function() {
 
 
 
-//Write a function named tellfortune
+
 
 
 var output = document.getElementById("tellFortune");
@@ -165,13 +165,38 @@ function tellFortune(kid, partner, place, job) {
 var jobArr = ["President", "Dictator", "Drugdealer", "Homeless Person", "Canadian Zookeeper", "Australian Mob-Boss", "Swedish Chef", "Proffesional muppeter", "Programmer" ];
 var cityArr = ["New York", "Amsterdam", "Lycksele", "Umeå", "Kingston", "Bangkok", "Dubai", "Norsjö", "Lyon"];
 var partnerArr = ["Emilia", "Emil", "Sacha", "Jim", "Nadia", "Susan", "Emelie", "Theo", "Peter", "Emily", "Katja", "Bror", "Mohammed", "Ali", "Julia", "Johannes", "William", "Esmeralda"];
-var kidsArr = [0,1,2,3,4,5,6,7,8,9,10,11,12,82];
+var kidsArr = [0,1,2,3,4,5,6,7,8];
 
 btnFortune.addEventListener("click", function() {
-    var randomKid = jobArr[Math.floor(Math.random() * jobArr.length)];
-    var randomPartner = jobArr[Math.floor(Math.random() * jobArr.length)];
-    var randomPlace = jobArr[Math.floor(Math.random() * jobArr.length)];
+    var randomKid = kidsArr[Math.floor(Math.random() * kidsArr.length)];
+    var randomPartner = partnerArr[Math.floor(Math.random() * partnerArr.length)];
+    var randomPlace = cityArr[Math.floor(Math.random() * cityArr.length)];
     var randomJob = jobArr[Math.floor(Math.random() * jobArr.length)];
 
-    tellFortune();
+    tellFortune(randomJob, randomPlace, randomPartner, randomKids);
 });
+
+
+
+function calculateDogYears(puppyAge) {
+
+    var dogAge = puppyAge * 7;
+    var humanAge = dogAge / 7
+    document.writeln(`<br>Your dog is: ${dogAge} years old.</br>`);
+    document.writeln(`<br>Your slave is ${humanAge} years old. </br>`)
+
+}
+
+calculateDogYears(8);
+
+
+
+function calculateSupply(age, amount_per_day) {
+    maxAge = 100;
+    myRemainingLife = maxAge - age
+    allLifeSupply = myRemainingLife * amount_per_day * 365
+
+    document.writeln("You shall consume: " + allLifeSupply + " 1,5 litre bottles of Portello in your entire life")
+}
+
+calculateSupply(18, 4)
