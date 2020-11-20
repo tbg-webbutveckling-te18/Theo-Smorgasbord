@@ -1,5 +1,6 @@
 body{
     background-color: #7bed9f;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 h1{
     text-align: center;
@@ -26,15 +27,22 @@ section.text{
     margin-top: 60px;
 }
 
-p.text1{
-    text-align: center;
-    opacity: 100%;
+section.ifelse {
+    /** display: none /**/
+}
+section.for {
+    display: none;
 }
 
-p.text2{
-    text-align: center;
-    opacity: 100%;
+section.array {
+    display: none;
 }
 
+section.object {
+    display: none;
+}
 
+p {
+    text-align: center;
+}
 
