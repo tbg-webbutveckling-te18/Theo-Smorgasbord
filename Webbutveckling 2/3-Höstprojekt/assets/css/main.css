@@ -1,9 +1,24 @@
 body{
-    background-color: #7bed9f;
+    /* background: rgb(137,232,200);
+    background: radial-gradient(circle, rgba(137,232,200,1) 42%, rgba(123,237,159,1) 100%); */
+    background: rgb(228,189,238);
+    background: linear-gradient(90deg, rgba(228,189,238,1) 22%, rgba(65,219,188,1) 99%);
     font-family: 'Noto Sans JP', sans-serif;
 }
-h1{
+h1.header{
     text-align: center;
+    margin: 0px;
+    padding: 8px;
+    font-size: 180%;
+}
+section.text h1 {
+    text-align: center;
+    margin: 0px;
+    font-size: 135%;
+}
+h3 {
+    text-align: center;
+    font-size: 112%;
 }
 ul.nav{
     display: flex;
@@ -17,6 +32,7 @@ ul.nav li{
     border: 2px solid black;
     border-radius: 8px;
     text-align: center;
+    
 }
 section.text{
     width: 60%;
@@ -29,6 +45,9 @@ section.text{
 
 section.ifelse {
     /** display: none /**/
+    background-color: #8ee7d5;
+    height: 100%;
+    border-radius: 12px;
 }
 section.for {
     display: none;
@@ -44,5 +63,8 @@ section.object {
 
 p {
     text-align: center;
+}
+p.ifElseCodeEx {
+    color: #020c0a;
 }
 
