@@ -44,7 +44,7 @@ section.text{
 }
 
 section.ifelse {
-    display: none;
+    /* display: none; */
     background-color: #8ee7d5;
     height: 100%;
     border-radius: 12px;
@@ -64,7 +64,7 @@ section.array {
 }
 
 section.object {
-    /* display: none; */
+    display: none;
     background-color:#8ee7d5;
     height: 100%;
     border-radius: 12px;
@@ -74,11 +74,11 @@ p {
     text-align: center;
 }
 p.ifElseCodeEx {
-    color: #020c0a;
+    color: #041310;
     font-size: 72%;
 }
 
 p.forCodeEx {
-    color: #020c0a;
+    color: #041310;
 }
 
