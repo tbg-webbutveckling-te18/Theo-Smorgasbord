@@ -1,26 +1,47 @@
-var sectionIfElse = getElementById(s1);
-var sectionFor = getElementById(s2);
-var sectionArray = getElementById(s3);
-var sectionObject = getElementById(s4);
+var menuIfElse = document.getElementById("s1");
+var menuFor = document.getElementById("s2");
+var menuArray = document.getElementById("s3");
+var menuObject = document.getElementById("s4");
 
-s1.addEventlistener('click', s1Function(){
-    //Display: block för denna
-    //Display: none för de andra 3x
+var showIfElse = document.getElementsByClassName("ifelse")[0];
+var showFor = document.getElementsByClassName("for")[0];
+var showArray = document.getElementsByClassName("array")[0];
+var showObject = document.getElementsByClassName("object")[0];
+
+menuIfElse.addEventListener('click', function(){
+
+    showIfElse.style.display = "block";
+  
+    showFor.style.display = "none";
+    showArray.style.display = "none";
+    showObject.style.display = "none";
 })
 
-s2.addEventlistener('click', s2Function(){
-    //Display: blcok för denna
-    //Display: none för de andra 3
+menuFor.addEventListener('click', function(){
+
+    showFor.style.display = "block";
+
+    showIfElse.style.display = "none";
+    showArray.style.display = "none";
+    showObject.style.display = "none";
+ 
 })
 
-s3.addEventlistener('click', s3Function(){
-    //Display: blcok för denna
-    //Display: none för de andra 3
+menuArray.addEventListener('click', function(){
+
+    showArray.style.display = "block";
+
+    showIfElse.style.display = "none";
+    showFor.style.display = "none";
+    showObject.style.display = "none";
 })
 
-s4.addEventlistener('click', s4Function(){
-    //Display: blcok för denna
-    //Display: none för de andra 3
+menuObject.addEventListener('click', function(){
+    showObject.style.display = "block";
+
+    showIfElse.style.display = "none";
+    showFor.style.display = "none";
+    showArray.style.display = "none";
 })
 
 // var arrayTest = getElementsByClassName('array');
