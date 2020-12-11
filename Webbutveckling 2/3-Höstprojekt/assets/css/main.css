@@ -10,6 +10,9 @@ h1.header{
     margin: 0px;
     padding: 8px;
     font-size: 185%;
+    background: -webkit-linear-gradient(90deg, #9c2fb8 25%,#177c67 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 section.text h1 {
     text-align: center;
@@ -88,3 +91,10 @@ p.forCodeEx {
     color: #041310;
 }
 
+.codeexample {
+    width: 15%;
+    margin: auto;
+}
+.codebg {
+    background-color: #cff5ed59;
+}
