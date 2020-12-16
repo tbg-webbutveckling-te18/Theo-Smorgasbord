@@ -8,13 +8,13 @@ var PersonFriends = ["Sven", "Gunnar"];
 
 
 var user = {
-    name: "Devin The Dude",
+    name: "Devin",
     age: 28,
     city: "HereSneezedDuck",
     friends: ["Bob", "Ross"],
-    isEvil: true, 
-    shoutout: function() {
-        alert("Shoutout to the Souls Of Mischief crew!")
+    isEvil: true
+    // shoutout: function() {
+    //     alert("Shoutout to the Souls Of Mischief crew!")
     }
 };
 
