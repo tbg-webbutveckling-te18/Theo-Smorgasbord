@@ -2,7 +2,7 @@ var Person = ["Sid", 33, "Male", "EagleShieldsBay"];
 
 Person.shift();
 
-document.writeln(Person[2])
+// document.writeln(Person[2])
 
 var PersonFriends = ["Sven", "Gunnar"];
 
@@ -14,11 +14,17 @@ var user = {
     friends: ["Bob", "Ross"],
     isEvil: true,
     shoutout: function() {
-        alert("Shoutout to the Souls Of Mischief crew!");
+        alert("AUTOMAGISKT");
     }
 };
 
-document.writeln(` <br> </br> My name is ${user.name} and I am ${user.age} years old. I live in ${user.city}`)
+var LevelUpBtn = document.querySelector(".aging");
+LevelUpBtn.addEventListener('click', function() {
+    user.age++;
+})
+
+var firstOutput = document.getElementById("firstOutput");
+firstOutput.innerHTML += ` <br> </br> My name is ${user.name} and I am ${user.age} years old. I live in ${user.city}`
 
 user.shoutout();
 
@@ -45,3 +51,4 @@ var postOutput = document.querySelector(".posts");
 posts.forEach(function(post) {
     postOutput.innerHTML += `Author: ${post.author} <br> Commented: ${post.comment} <br><br>`;
 })
+
