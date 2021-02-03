@@ -15,12 +15,15 @@ var user = {
     isEvil: true,
     shoutout: function() {
         alert("AUTOMAGISKT");
+    },
+    levelUp: function() {
+        return this.age++;
     }
 };
 
 var LevelUpBtn = document.querySelector(".aging");
 LevelUpBtn.addEventListener('click', function() {
-    user.age++;
+    firstOutput.innerHTML = `<br> </br> My name is ${user.name} and I am ${user.levelUp()} years old`;
 })
 
 var firstOutput = document.getElementById("firstOutput");
@@ -38,7 +41,7 @@ var posts = [
     },
     {
         author: "Big L",
-        comment: "If rap was a game I'd be MVP, the most valuable poet in the NYC"
+        comment: "If rap was a game I'd be MVP, the most valuable poet on the M-I-C"
     },
     {
         author: "Kareem Campbell",
@@ -51,4 +54,68 @@ var postOutput = document.querySelector(".posts");
 posts.forEach(function(post) {
     postOutput.innerHTML += `Author: ${post.author} <br> Commented: ${post.comment} <br><br>`;
 })
+
+var input = document.querySelector(".updateCity");
+var city = document.querySelector(".posts .city");
+input.addEventListener('keydown', function(e) {
+    if(e.key === 'Enter') {
+        city.innerHTML = input.value;
+        document.body.style.backgroundColor = 'purple';
+        document.body.style.transform += 'rotateX(45deg)'
+        document.body.style.transform += 'rotateY(202deg)'
+    }
+})
+
+var toggle = document.querySelector(".btnToggle");
+toggle.addEventListener('click', function() {
+    // Bad way
+    // city.style.fontWeight = "bold";
+    // city.style.fontSize = "32px";
+    // city.style.color = "yellow";
+    // city.style.textShadow = "2px 4px 1px #000";
+
+    //Good way
+    //classList.add("")
+    //classList.remove("")
+
+    postOutput.classList.toggle("changeText");
+})
+
+/*
+***************************************
+Create your own code - movieDB
+***************************************
+*/
+// Create an array of movie objects
+// Each movie should have a title, rating and hasWatched properties
+// Iterate through the array with a forEach and print out something that looks like:
+/* 
+   - You have seen "Frozen" - 4.5 stars
+   - You have not seen "Django" - 5 stars
+   - You have seen "Vaiana" - 5 stars
+   - You have not seen "Shawshank Redemption" - 5 stars
+*/
+
+var movies = [
+    {
+        title: "Primal Fear",
+        rating: "9/10",
+        hasWatched: true,
+    },
+    {
+        title: "Memento",
+        rating: "8.2/10",
+        hasWatched: true,
+    },
+    {
+        title: "Scream",
+        rating: "7.5/10",
+        hasWatched: true,
+    },
+    {
+        title: "American Psycho",
+        rating: "8/10",
+        hasWatched: true
+    }
+]
 

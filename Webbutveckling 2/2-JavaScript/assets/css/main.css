@@ -5,10 +5,7 @@ html {
 }
 body {
     background-color: #f53b57;
-    padding: 320px;
-    border: 2px dotted #ffa801;
-    margin: 82px;
-    border-radius: 8px;
+
 }
 
 .time {
@@ -46,4 +43,11 @@ body {
     flex: 1;
     border: 12px double black;
     box-shadow: inset 2px 2px 10px black, 2px 2px 10px black;;
+}
+
+.changeText {
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 2px 4px 1px #000;
+    letter-spacing: 0.5px;
 }
