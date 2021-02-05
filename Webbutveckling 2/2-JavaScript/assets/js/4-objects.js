@@ -118,4 +118,47 @@ var movies = [
         hasWatched: true
     }
 ]
+var outputMovies = document.querySelector(".moviebox")
+movies.forEach(function(movie) {
+    movie.innerHTML += `You have watched ${movie.title} and rated it ${movie.rating}`
+})
 
+
+
+var opc = document.querySelector("#outputCalc");
+var countObj = {
+    someText: "This is some text",
+    count: function(x, y) {
+        return x * y;
+    },
+    divide: function(x, y) {
+        return x / y;
+    }
+}
+
+opc.innerHTML = countObj.count(10, 5);
+
+//Our own animal sound library
+
+var outputSound = document.querySelector(".animalSound");
+var animalSound = {
+    dog: function() {
+        outputSound.innerHTML = "Voff Voff";
+    },
+    cat: function() {
+        outputSound.innerHTML = "Meeeeeeooow"
+    },
+    wolf: function() {
+        outputSound.innerHTML = "Aaaaoooowwww"
+    },
+    cow: function() {
+        outputSound.innerHTML = "Mooooo"
+    }
+
+}
+
+for(var i = 0; i < btnAnimal.length; i++) {
+    btnAnimal[i].addEventListener('click', function() {
+        
+    }
+}
