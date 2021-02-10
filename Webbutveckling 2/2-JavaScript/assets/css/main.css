@@ -51,3 +51,11 @@ body {
     text-shadow: 2px 4px 1px #000;
     letter-spacing: 0.5px;
 }
+
+/* Utility classes */
+
+.addFlex {
+    display: flex;
+    flex-flow: row wrap;
+
+}
