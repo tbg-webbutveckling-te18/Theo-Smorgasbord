@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+
+header {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+header h1 {
+    flex: 0;
+}
+
+nav {
+    flex: 0;
+    width: 100vw;
+    justify-content: center;
+}
+.span-logo {
+    color: red;
+}
+
+main {
+    flex-direction: column;
+}
+
+.main-left {
+    order: 2;
+}
+
+.main-center {
+    order: 1;
+}
+
+.main-right {
+    order: 3;
+}
