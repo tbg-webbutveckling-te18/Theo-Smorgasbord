@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: #dfdfdf;
+    background-color: #c8e5e5;
     width: 100%;
     height: auto;
 }
@@ -42,7 +42,7 @@ nav {
 .span-logo {
     color: #007af3;
 }
-.mobile-icon {
+.mobile-icon, .mobile-icon-close {
     display: none;
 }
 nav ul {
@@ -72,20 +72,20 @@ main {
 }
 .main-left {
     flex: 1;
-    background-color: #637692;
+    background-color: #c8e5d7;
 }
 .main-center {
     flex: 1;
-    background-color: #5F6C7E;
+    background-color: #c8e5c9;
 }
 .main-right {
     flex: 1;
-    background-color: #637692;
+    background-color: #c8e5d7;
 }
 
 footer {
     width: 100%;
     height: 250px;
 
-    background-color: #3E4043;
+    background-color: #c8e5e5;
 }
