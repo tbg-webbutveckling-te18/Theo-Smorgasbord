@@ -79,10 +79,50 @@ main {
 .main-center {
     flex: 1;
     background-color: #c8e5c9;
+
+    text-align: center;
+    justify-content: space-around;
+    margin: 2px;
+
 }
+
+.main-center p {
+
+    font-size: 16px;
+    margin: 2px;
+}
+
+.main-center h2 {
+    font-size: 24px;
+    font-style: italic;
+}
+
 .main-right {
     flex: 1;
     background-color: #c8e5d7;
+}
+
+.aside-text {
+    text-align: center;
+    margin: 8px;
+}
+.aside-pictures {
+    justify-content: space-around;
+}
+
+.aside-pictures img {
+    height: 250px;
+    width: 300px;
+
+    border: 0.5px dotted black;
+    border-radius: 8px;
+    filter: invert(0%);
+    transition: all .3s;
+    
+}
+.aside-pictures img:hover {
+    transition: all .6s;
+    filter:invert(100%);
 }
 
 footer {

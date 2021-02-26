@@ -18,12 +18,31 @@ header {
     /* z-index: 2; */
     top: 20px;
     right: 20px;
+
+    transform:scale(1.0);
+    transition: all 0.4s;
 }
+
+.mobile-icon:hover {
+
+    transform: scale(1.15);
+    transition: all 0.4s;
+}
+
 .mobile-icon-close {
     display: block;
     position: absolute;
     top: 20px;
     right: 20px;
+
+    transform:scale(1.0);
+    transition: all 0.4s;
+}
+
+.mobile-icon-close:hover {
+
+    transform: scale(1.15);
+    transition: all 0.4s;
 }
 
 
@@ -59,4 +78,5 @@ header {
 
 .mobile-menu li:hover {
     background-color: #c8e5c9;
+    transition: all .2s;
 }
