@@ -95,6 +95,10 @@ main {
 .main-center h2 {
     font-size: 24px;
     font-style: italic;
+
+    background: -webkit-linear-gradient(#159957, #155799);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .main-right {
@@ -130,4 +134,13 @@ footer {
     height: 250px;
 
     background-color: #c8e5e5;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+
+    margin-top: 2%;
 }
