@@ -41,6 +41,10 @@ nav {
 
     justify-content: flex-end;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 .span-logo {
     color: #007af3;
 }
@@ -57,6 +61,18 @@ nav ul {
     font-size: 22px;
     cursor: pointer;
     text-transform: uppercase;
+
+    color: black;
+}
+nav ul li:hover {
+    
+    transition: all 0.4s;
+    color: #007af3;
+}
+
+nav ul li a:hover {
+    transition: all 0.4s;
+    color: #007af3;
 }
 
 
@@ -128,6 +144,17 @@ main {
 .aside-pictures img:hover {
     transition: all .6s;
     filter:invert(100%);
+}
+
+.text {
+    border: 0.5px dotted black;
+    border-radius: 8px;
+}
+iframe {
+    border: 0.5px dotted black;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 footer {
