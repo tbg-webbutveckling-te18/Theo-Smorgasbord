@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    height: 80px;
+}
+
+span {
+    color:#007AF3;
+}
+
+ul li {
+    list-style: none;
+}
+
+section.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    width: 250px;
+
+    text-align: center;
+}
+
+section.middle{
+    /* background-color: orange; */
+    width: 650px;
+
+}
+
+section.middle ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+section.right{
+    /* background-color: yellow; */
+    width: 370px;
+}
+
+section.right ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+li.GoPremium{
+    color: #007AF3;
+    border: 1px solid #007AF3;
+    border-radius: 6px;
+}
