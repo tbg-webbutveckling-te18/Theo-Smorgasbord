@@ -1,0 +1,7 @@
+<svg id="Component_4_1" data-name="Component 4 – 1" xmlns="http://www.w3.org/2000/svg" width="266.955" height="40" viewBox="0 0 266.955 40">
+  <g id="Icon_ionic-ios-videocam" data-name="Icon ionic-ios-videocam" transform="translate(-2.25 0.051)">
+    <path id="Path_1" data-name="Path 1" d="M31.683,10.8a.965.965,0,0,0-.654.268l-6.082,5.41a.967.967,0,0,0-.281.713v7.531a.967.967,0,0,0,.281.713l6.082,5.41a1.014,1.014,0,0,0,.654.268h1.463c.338,0,.6-.377.6-.842V11.642c0-.466-.274-.842-.6-.842Z" transform="translate(2.705 0)" fill="#b2b2b2"/>
+    <path id="Path_2" data-name="Path 2" d="M19.23,32.9H5.871c-1.99,0-3.621-2.166-3.621-4.8V13.8C2.25,11.157,3.881,9,5.864,9H19.223c1.99,0,3.614,2.166,3.614,4.8V28.091C22.845,30.733,21.22,32.9,19.23,32.9Z" fill="#b2b2b2"/>
+  </g>
+  <text id="Watch_a_video" data-name="Watch a video" transform="translate(56.955 30)" fill="#b2b2b2" font-size="29" font-family="Poppins-Regular, Poppins" text-decoration="underline"><tspan x="0" y="0">Watch a video</tspan></text>
+</svg>
