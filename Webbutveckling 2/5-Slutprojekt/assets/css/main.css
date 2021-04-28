@@ -1,3 +1,7 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 nav {
     display: flex;
     height: 80px;
@@ -54,7 +58,7 @@ li.GoPremium{
 
 section.hero{
     background-color: #F2F2F2;
-    height: 500px;
+    height: 650px;
 
     display: flex;
 }
@@ -126,4 +130,48 @@ section.hero-right{
 img.grafik{
     width: 280px;
     height: 450px;
+}
+
+section.functions{
+    background-color: #3B4651;
+    height: 500px;
+
+    position: relative;
+
+    display: flex;
+}
+
+aside.bluebox{
+
+    position: absolute;
+    position: relative;
+    left: 0;
+    top: -60px;
+
+    width: 160px;
+    height: 350px;
+
+    background-color: #007AF3;
+}
+
+img.blueboxcircle{
+
+    position: absolute;
+    left: 50%;
+    top: 35%;
+
+    width: 150px;
+}
+
+section.tasks{
+
+    margin-left: 200px;
+    margin-top: 70px;
+
+    color: white;
+}
+
+section.tasks li{
+
+    margin-bottom: 30px;
 }
