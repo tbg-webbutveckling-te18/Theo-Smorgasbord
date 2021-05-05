@@ -175,3 +175,44 @@ section.tasks li{
 
     margin-bottom: 30px;
 }
+
+section.tasks li::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/Component\ 9\ –\ 1.svg);
+    background-size: contain;
+    margin-right: 5px;
+}
+
+section.greybox{
+    background-color: #3B4651;
+
+    position: absolute;
+
+    right: 0;
+    bottom: -80px;
+
+    height: 380px;
+    width: 350px;
+}
+
+img.greyboximage{
+
+    position: absolute;
+
+    right: 0;
+    bottom: -80px;
+
+    height:380px;
+    width: 350px;
+
+    mix-blend-mode: luminosity;
+}
+
+section.testimonials{
+    background-color: #007AF3;
+
+    height: 750px;
+}
