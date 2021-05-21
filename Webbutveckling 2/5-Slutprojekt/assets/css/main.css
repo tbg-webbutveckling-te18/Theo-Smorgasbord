@@ -215,14 +215,19 @@ section.testimonials{
     background-color: #007AF3;
 
     height: 750px;
+    position: relative;
 }
 
 .slideshow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    /* justify-content: center;
+    align-items: center; */
 
     height: 750px;
+    position: relative;
 }
 
 section.card{
@@ -232,8 +237,8 @@ section.card{
     width: 280px;
 
     border-radius: 35px;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    margin: 120px 20px 20px 20px;
     
     position: relative;
 
@@ -273,4 +278,26 @@ div.card-photo{
     position: absolute;
     top: -50px;
     left: 82px;
+}
+
+button#left{
+    position: absolute;
+
+    left: -110px;
+    bottom: 160px;
+
+    font-size: 30px;
+
+    z-index: 100;
+}
+
+button#right{
+    position: absolute;
+
+    right: 0px;
+    bottom: 160px;
+
+    font-size: 30px;
+
+    z-index: 100;
 }
