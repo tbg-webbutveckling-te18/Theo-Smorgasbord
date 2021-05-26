@@ -196,6 +196,8 @@ section.greybox{
 
     height: 380px;
     width: 350px;
+
+    z-index: 9;
 }
 
 img.greyboximage{
@@ -209,6 +211,8 @@ img.greyboximage{
     width: 350px;
 
     mix-blend-mode: luminosity;
+
+    z-index: 10;
 }
 
 section.testimonials{
@@ -220,7 +224,8 @@ section.testimonials{
 
 .slideshow{
     display: inline-block;
-    overflow: hidden;
+    overflow: scroll;
+    overflow-y: hidden;
     white-space: nowrap;
     width: 100%;
     /* justify-content: center;
@@ -238,7 +243,7 @@ section.card{
 
     border-radius: 35px;
     display: inline-block;
-    margin: 120px 20px 20px 20px;
+    margin-top: 200px;
     
     position: relative;
 
@@ -253,6 +258,8 @@ p.text{
 
     margin-left: 40px;
     margin-top: 80px;
+
+    white-space: normal;
     
     
 }
@@ -263,6 +270,8 @@ p.author{
 
     text-align: center;
     margin: auto;
+
+    
 }
 
 div.card-photo{
