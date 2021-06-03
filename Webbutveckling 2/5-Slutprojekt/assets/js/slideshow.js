@@ -11,7 +11,7 @@ btnLeft.addEventListener("click", function(){
     console.log(counter);
 
     if (counter <= -900){
-        counter = 0;
+        counter = 300;
     }
 })
 
@@ -26,7 +26,7 @@ btnRight.addEventListener("click", function(){
     console.log(counter);
 
     if(counter >= 900){
-        counter = 0;
+        counter = -300;
     }
 })
 
